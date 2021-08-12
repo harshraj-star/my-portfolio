@@ -20,26 +20,26 @@ import Social from "./Social";
 const App = () => {
     return (
         <>
-        <Navbar/>
-        <Switch>
-            <Route exact path ="/" component={About} />
-            <Route exact path ="/education" component={Education} />
-            <Route exact path ="/skills" component={Skills} />
-            <Route exact path ="/interest" component={Interest} />
-            <Route exact path ="/certi" component={Certi} />
-            <Route exact path ="/projects" component={Projects} />
-            <Route exact path ="/resume" component={Resume} />
-            <Route exact path ="/social" component={Social} />
-            
-            
-            
-            
-            <Redirect to = "/" />
+            <Navbar />
+            <Switch>
+                <Route exact path="/" component={About} />
+                <Route exact path="/education" component={Education} />
+                <Route exact path="/skills" component={Skills} />
+                <Route exact path="/interest" component={Interest} />
+                <Route exact path="/certi" component={Certi} />
+                <Route exact path="/projects" component={Projects} />
+                <Route exact path="/resume" component={Resume} />
+                <Route exact path="/social" component={Social} />
 
-        </Switch>
-        
-        
-        
+
+
+
+                <Redirect to="/" />
+
+            </Switch>
+
+
+
         </>
 
     );
