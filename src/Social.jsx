@@ -8,6 +8,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import EmailIcon from '@material-ui/icons/Email';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import LanguageIcon from '@material-ui/icons/Language';
+import Footer from "./Footer";
 
 
 const Social = () => {
@@ -87,6 +88,7 @@ const Social = () => {
             </div>
         </div>
         </section>
+        <Footer />
         </>
 
     );

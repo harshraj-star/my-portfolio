@@ -16,7 +16,7 @@ const Resume = () => {
                 <h1  >RESUME <br/> <br/><strong className="brand-name"></strong></h1>
 
                 <div className="col-lg-5 order-2 order-lg-2 header-img">
-                <a href ="https://drive.google.com/file/d/1k6gvT7hqm8hFGEQRPuMlDfCARpv0dJ_1/view?usp=sharing"> <img src={resu}  width="400" height="140" className="img-fluid animated" alt="homeimg"/> </a>
+                <a href ="https://drive.google.com/file/d/1MYf0fAufc0JH_USkRab8Oo8zz0uf_0j3/view?usp=sharing" target="_blank"> <img src={resu}  width="400" height="140" className="img-fluid animated" alt="homeimg"/> </a>
                 </div>
 
                 
@@ -29,7 +29,7 @@ const Resume = () => {
 
                 
                 <div className="mt-3">
-                    <a href ="https://drive.google.com/file/d/1k6gvT7hqm8hFGEQRPuMlDfCARpv0dJ_1/view?usp=sharing" className="btn-get-started  "> DOWNLOAD PDF </a>
+                    <a href ="https://drive.google.com/file/d/1MYf0fAufc0JH_USkRab8Oo8zz0uf_0j3/view?usp=sharing" className="btn-get-started  " target="_blank"> DOWNLOAD PDF </a>
                 </div>
                 <br/>
 
@@ -61,7 +61,9 @@ const Resume = () => {
             </div>
         </div>
         </section>
+        
         <Footer />
+        
 
         </>
 

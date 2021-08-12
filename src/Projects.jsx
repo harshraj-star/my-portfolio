@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import p1 from "../src/images/p1.png"
+import Footer from "./Footer";
 
 
 const Projects = () => {
@@ -19,18 +20,18 @@ const Projects = () => {
 
 
                                     <a href="https://harshraj-star.github.io/Educational-Website/" target="_blank" className="bbc" ><h6 className="my-3">
-                                        1. E-learning platform
+                                        1. Code India (E-learning platform)
 </h6></a>
 
-<a href="https://harshraj-star.github.io/Let-Chat/" target="_blank" className="bbc" ><h6 className="my-3">
-                                        2. Slack CLone App
+<a href="http://codeindiaorg.me/OffcampusDuniyahtml/" target="_blank" className="bbc" ><h6 className="my-3">
+                                        2. Offcampus Duniya
 </h6></a>
 
 
 
 
-                                    <a href="https://harshraj-star.github.io/T-Rex-Game/" target="_blank" className="bbc"><h6 className="my-3 ">
-                                        3. T-REX Run Chrome Browser Game  </h6></a>
+                                    <a href="https://indianstarharsh.tech/" target="_blank" className="bbc"><h6 className="my-3 ">
+                                        3. Indianstar Harsh Gaming  </h6></a>
                                         
 
 
@@ -44,7 +45,12 @@ const Projects = () => {
 
 
                                     <a href="" target="_blank" className="bbc"><h6 className="my-3">
-                                        6. Google Keep Clone </h6></a>
+                                        6. To Do List </h6></a>
+
+                                        <a href="" target="_blank" className="bbc"><h6 className="my-3">
+                                        7. Blog Website </h6></a>
+
+                                        
 
 
 
@@ -84,6 +90,7 @@ const Projects = () => {
                     </div>
                 </div>
             </section>
+            <Footer />
         </>
 
     );

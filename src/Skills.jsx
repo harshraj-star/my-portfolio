@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import s2 from "../src/images/s2.png";
 import ProgressBar from 'react-bootstrap/ProgressBar'
+import Footer from "./Footer";
 
 
 const Skills = () => {
@@ -13,7 +14,7 @@ const Skills = () => {
             <div className="row">
                 <div className="col-10 mx-auto">
                 <div className="row">
-                <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
+                <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column mx-auto">
                 <h1> Skills<br/> <br/><strong className="brand-name"> </strong></h1>
 
 
@@ -106,6 +107,7 @@ const Skills = () => {
             </div>
         </div>
         </section>
+        <Footer />
         </>
 
     );

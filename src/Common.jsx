@@ -1,12 +1,15 @@
 import React from "react";
+import Footer from "./Footer";
 
 
 
 import { NavLink } from "react-router-dom";
+import Navbar from "./Navbar";
 
 const Common = (props) => {
     return (
         <>
+        
         <section id ="header" className="d-flex align-items-center ">
         <div className ="container-fluid ">
             <div className="row">
@@ -16,7 +19,7 @@ const Common = (props) => {
                 <h1>{props.name} <br/> <br/><strong className="brand-name">{props.nam} </strong></h1>
 
                 <h5 className="my-3">
-                I am a Pre-Final year Electronics and Communication Student who have interest in Web Development as well as Application Development.I am good at problem solving , Fast learner , Self Focused and looking forward for an Internship.
+                I am an Electronics Engineering Student with knowledge and interest in technical skills , a fast learner , looking forward for a job in your reputable organization to utilize my technical skills for the growth of the organization as well as to enhance my knowledge in new and emerging trends in the IT sector.
             
                 
                 
@@ -57,6 +60,7 @@ const Common = (props) => {
             </div>
         </div>
         </section>
+        <Footer />
 
         
         

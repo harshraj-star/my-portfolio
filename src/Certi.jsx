@@ -1,6 +1,7 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom"
 import c3 from "../src/images/c3.png"
+import Footer from "./Footer";
 
 
 const Certi = () => {
@@ -14,6 +15,19 @@ const Certi = () => {
                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
                 <h1>CERTIFICATES <br/> <br/><strong className="brand-name"></strong></h1>
 
+
+                <h6 className="my-3">
+                📋 "HackerRank Java(Basics)"
+                </h6>
+
+                <h6 className="my-3">
+                📋 "HackerRank SQL(Basics)"
+                </h6>
+
+                <h6 className="my-3">
+                📋 "The Complete Front-End Web Development Course"
+                </h6>
+
                 <h6 className="my-3">
                 📋 "Developing Soft Skills and Personality" from NPTEL
                 
@@ -23,10 +37,7 @@ const Certi = () => {
                 📋 "Custom Attribution Modeling with Google Analytics" from Coursera
                 </h6>
 
-                <h6 className="my-3">
-                📋 "BEC Cambridge English" from Cambridge Assesment
-English
-                </h6>
+                
 
                 <h6 className="my-3">
                 📋 "Java Tutorial Course" from SoloLearn
@@ -40,9 +51,7 @@ English
                 📋 "HTML Fundamentals" from SoloLearn
                 </h6>
 
-                <h6 className="my-3">
-                📋 "The Complete Front-End Web Development Course"
-                </h6>
+            
 
                 
 
@@ -77,6 +86,7 @@ English
             </div>
         </div>
         </section>
+        <Footer />
         </>
 
     );

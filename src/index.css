@@ -143,7 +143,49 @@ code {
 
 /* Now For Responsive Page Code */
 
-@media (max-width: 991px) {
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+  #header {
+    height: 80vh;
+    text-align: center;
+  }
+
+  #header .header-img {
+    text-align: center;
+  }
+
+  #header .header-img img {
+    width: 60%;
+
+  }
+
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+  #header h1 {
+    font-size: 2.8rem;
+  }
+
+  #header h2 {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+
+  }
+
+  #header .header-img img {
+    width: 70%;
+    
+  }
+}
+
+
+
+/*@media (max-width: 991px) {
   #header {
     height: 80vh;
     text-align: center;
@@ -177,6 +219,8 @@ code {
   }
 }
 
+*/
+
 .hem_t{
   padding-bottom: .3125rem;
     margin-right: 1rem;
@@ -200,6 +244,12 @@ h3{
 }
 h4{
   font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+footer p{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: white;
 }
 
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import i from "../src/images/i.png"
+import Footer from "./Footer";
 
 
 const Interest = () => {
@@ -19,7 +20,7 @@ const Interest = () => {
                 </h6>
 
                 <h6 className="my-3 ">
-                ⚫️ Machine Learning
+                ⚫️ Wordpress
                 </h6>
 
                 <h6 className="my-3">
@@ -35,7 +36,7 @@ const Interest = () => {
                 </h6>
 
                 <h6 className="my-3">
-                ⚫️ Programming
+                ⚫️ Making Tutorials on YouTube
                 </h6>
 
                 
@@ -72,6 +73,7 @@ const Interest = () => {
             </div>
         </div>
         </section>
+        <Footer />
         </>
 
     );

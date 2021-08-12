@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import e from "../src/images/e.png"
+import Footer from "./Footer";
 
 
 
@@ -28,7 +29,7 @@ const Education = () => {
 
                 <h5 className="my-3">
                 &nbsp;Electronics and Communication Engineering<br/>
-                &nbsp;CGPA: 8.9
+                &nbsp;CGPA: 8.7
                 <br/><br/><br/><br/>
                 
                 </h5>
@@ -67,6 +68,7 @@ const Education = () => {
             </div>
         </div>
         </section>
+        <Footer />
 
 
 
